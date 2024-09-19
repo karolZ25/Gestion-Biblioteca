@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        
+
         Biblioteca biblioteca = new Biblioteca();
         Scanner scanner = new Scanner(System.in);
         boolean continuar = true;
@@ -112,6 +112,6 @@ public class Main {
             }
         }
 
-        scanner.close(); //me pedia esto para poder ejecutarlo 
+        scanner.close(); 
     }
 }
